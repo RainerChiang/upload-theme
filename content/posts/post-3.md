@@ -1,7 +1,7 @@
 ---
 title: "How I Learned to Stop Procrastinating, & Love Letting Go"
 date: 2018-03-18T12:13:32+05:30
-lastmod: 
+lastmod: 2020-10-09T10:13:38+08:00
 author: "Rainer Chiang"
 
 description: "The art of letting go."
@@ -9,7 +9,7 @@ categories: ["Text"]
 tags: ["Procrastinating"]
 
 draft: false
-enableDisqus : false
+enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true

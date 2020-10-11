@@ -1,20 +1,15 @@
 ---
 title: "Primer: When You Have Too Much to Do"
-date: 2018-03-18T02:01:58+05:30
-lastmod: 
-author: 
+date: 2017-01-18T02:01:58+05:30
+lastmod: 2020-10-09T10:13:38+08:00
+author: "Rainer Chiang"
 
 description: "You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more."
 categories: ["Text"]
 tags: ["Primer", "todo"]
 
-description: ""
-categories: [""]
-tags: [""]
-
-
 draft: false
-enableDisqus : false
+enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true

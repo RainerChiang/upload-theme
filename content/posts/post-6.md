@@ -1,7 +1,7 @@
 ---
 title: "Image"
-date: 2018-03-18T12:13:36+05:30
-lastmod: 
+date: 2019-09-06T12:13:36+05:30
+lastmod: 2020-10-09T10:13:38+08:00
 author: "Rainer Chiang"
 
 description: Here is a demo of all shortcodes available in Hugo.
@@ -10,7 +10,7 @@ tags: ["image"]
 
 
 draft: false
-enableDisqus : false
+enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true

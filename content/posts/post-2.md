@@ -1,7 +1,7 @@
 ---
 title: "Fearlessness: How to Stop Running from Space"
-date: 2018-03-18T12:13:30+05:30
-lastmod: 
+date: 2017-05-18T12:13:30+05:30
+lastmod: 2020-10-09T10:13:38+08:00
 author: "Rainer Chiang"
 
 description: ""
@@ -10,7 +10,7 @@ tags: ["Space"]
 
 
 draft: false
-enableDisqus : false
+enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true

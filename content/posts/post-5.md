@@ -1,7 +1,7 @@
 ---
 title: "Typography"
-date: 2018-03-18T12:13:38+05:00
-lastmod: 
+date: 2019-09-18T12:13:38+05:00
+lastmod: 2020-10-09T10:13:38+08:00
 author: "Rainer Chiang"
 
 description: ""
@@ -10,7 +10,7 @@ tags: ["markdown"]
 
 
 draft: false
-enableDisqus : false
+enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true

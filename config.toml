@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://rainerchiang.github.io/simpleness/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -22,7 +22,7 @@ googleAnalytics = ""
   disqus = "rainerchiang"
 
 [params.valine]
-  enable = true
+  enable = false
   lang = 'en' # zh-CN
   appId = ''
   appKey = ''
