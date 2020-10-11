@@ -15,6 +15,6 @@ disableAutoCollapse: true
 
 # Projects
 
-## [Simpleness](https://github.com/RainerChiang/mySimpleness)
+## [simpleness](https://github.com/RainerChiang/simpleness)
 
 A hugo theme ported form [contrast-hugo](https://github.com/niklasbuschmann/contrast-hugo)
