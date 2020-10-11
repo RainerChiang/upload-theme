@@ -18,7 +18,7 @@ googleAnalytics = ""
   enableReadingTime = true
   favicon = "favicon.ico"
   startyear = "2019"
-  description = "There are Rainer's words."
+  description = "A simple and concise hugo theme."
   disqus = "rainerchiang"
 
 [params.valine]

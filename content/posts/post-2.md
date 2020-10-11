@@ -1,12 +1,12 @@
 ---
-title: "Fearlessness: How to Stop Running from Space"
+title: "Markdown Syntax Guide"
 date: 2017-05-18T12:13:30+05:30
 lastmod: 2020-10-09T10:13:38+08:00
 author: "Rainer Chiang"
 
-description: ""
-categories: ["Test"]
-tags: ["Space"]
+description: "Markdown Syntax Guide"
+categories: ["Hugo"]
+tags: ["Markdown", "test"]
 
 
 draft: false
@@ -16,37 +16,133 @@ disableToC: false
 disableAutoCollapse: true
 ---
 
-We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
+This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+<!--more-->
 
-We are afraid of empty space in our lives.
+## Headings
 
-The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.
+The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
-We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness. We try to fill every second with activity, with something useful, as if silence and space are not valuable.
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-But what are we afraid of?
+## Paragraph
 
-And who would we be if we didn’t have that fear?
+Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-We’re afraid of space and stillness and silence because it highlights the uncertainty, instability, groundlessness, insecurity, shakiness that lie underneath every second of our lives. We’re afraid of having to face this instability and uncertainty, of having to feel the fear of it.
+Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-Without the fear of all of the uncertainty that is highlighted by space … we become free.
+## Blockquotes
 
-I know in my life, when I allow myself to have stillness, silence, solitude, simplicity and space … it leaves room to face whatever is coming up for me. It gives me room to fully feel any feelings that I’ve been avoiding. It allows me to be more honest with myself, instead of using distractions and busyness to cover up what I don’t want to see.
+The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
-And in the end, I develop trust that the space is not something to be feared, but rather something to be treasured. A gift, filled with learning and not knowing and shakiness and beauty.
+#### Blockquote without attribution
 
-You might try allowing more space to be in your day, without filling it:
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> **Note** that you can use *Markdown syntax* within a blockquote.
 
-* Take some time between tasks for stillness.
-* Sit out in nature, in silence, without technology.
-* When you notice yourself reaching for your phone, pause. See if you can just be still, just savor some space.
-* When you feel uncertainty or instability in your life (hint: it’s always there), let yourself feel it. Be present with it, without needing to run or avoid.
-* When you feel fear, be open-hearted with it and allow yourself fully feel it, being friendly with it. Your relationship with fear will change if you become friendly with it.
-* Do less, and trust that things won’t fall apart. Or if they do fall apart, you can be present with that instability.
-* When you’re in line, driving, eating, walking, exercising … see if you can do those things in silence, without technology, without needing to do something “useful.” Find the value in these spaces.
-* Notice who you are without the fear of space.
+#### Blockquote with attribution
 
-Savor these spaces, their deliciousness. Savor the groundlessness, as something filled with freedom if we learn not to fear it. Be present with the fear and uncertainty, as good friends not as enemies.
+> Don't communicate by sharing memory, share memory by communicating.<br>
+> — <cite>Rob Pike[^1]</cite>
 
-Let your heart be open raw tender and vulnerable, and your mind embracing the spaciousness of the vast blue sky of open awareness.
+[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+
+## Tables
+
+Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+
+   Name | Age
+--------|------
+    Bob | 27
+  Alice | 23
+
+#### Inline Markdown within tables
+
+| Italics   | Bold     | Code   |
+| --------  | -------- | ------ |
+| *italics* | **bold** | `code` |
+
+## Code Blocks
+
+#### Code block with backticks
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
+```
+
+#### Code block indented with four spaces
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Test</p>
+    </body>
+    </html>
+
+#### Code block with Hugo's internal highlight shortcode
+{{< highlight html >}}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
+{{< /highlight >}}
+
+## List Types
+
+#### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+#### Unordered List
+
+* List item
+* Another item
+* And another item
+
+#### Nested list
+
+* Fruit
+  * Apple
+  * Orange
+  * Banana
+* Dairy
+  * Milk
+  * Cheese
+
+## Other Elements — abbr, sub, sup, kbd, mark
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+H<sub>2</sub>O
+
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
