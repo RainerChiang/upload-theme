@@ -1,12 +1,12 @@
 ---
-title: "Typography"
+title: Typography
 date: 2019-09-18T12:13:38+05:00
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
-description: ""
-categories: ["Whisper"]
-tags: ["markdown"]
+description: 
+categories: [Whisper]
+tags: [markdown]
 
 
 draft: false

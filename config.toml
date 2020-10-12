@@ -49,7 +49,7 @@ googleAnalytics = ""
 
 [social]
   github = "https://github.com/RainerChiang"
-  rss = "/index.xml"
+  rss = "index.xml"
 
 [taxonomies]
 category = "categories"

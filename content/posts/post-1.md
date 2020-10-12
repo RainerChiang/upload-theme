@@ -1,12 +1,12 @@
 ---
-title: "Emoji Support"
+title: Emoji Support
 date: 2017-01-18T02:01:58+05:30
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
-description: "You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more."
-categories: ["Hugo"]
-tags: ["emoji", "test"]
+description: You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
+categories: [Hugo]
+tags: [emoji, test]
 
 draft: false
 enableDisqus : true

@@ -1,12 +1,12 @@
 ---
-title: "Markdown Syntax Guide"
+title: Markdown Syntax Guide
 date: 2017-05-18T12:13:30+05:30
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
-description: "Markdown Syntax Guide"
-categories: ["Hugo"]
-tags: ["Markdown", "test"]
+description: Markdown Syntax Guide
+categories: [Hugo]
+tags: [Markdown, test]
 
 
 draft: false

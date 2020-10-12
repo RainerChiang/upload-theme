@@ -1,12 +1,12 @@
 ---
-title: "Short Codes"
+title: Short Codes
 date: 2019-09-06T12:13:36+05:30
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
 description: Here is a demo of all shortcodes available in Hugo.
-categories: ["Shortcodes"]
-tags: ["image"]
+categories: [Shortcodes]
+tags: [image]
 
 
 draft: false

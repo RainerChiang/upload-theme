@@ -1,12 +1,12 @@
 ---
-title: "Math Type Setting"
+title: Math Type Setting
 date: 2018-03-18T12:13:32+05:30
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
-description: "The art of letting go."
-categories: ["Hugo"]
-tags: ["MathJax", "test"]
+description: The art of letting go.
+categories: [Hugo]
+tags: [MathJax, test]
 
 draft: false
 enableDisqus : true

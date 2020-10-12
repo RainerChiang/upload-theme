@@ -1,12 +1,12 @@
 ---
-title: "中文测试"
+title: 中文测试
 date: 2018-03-18T12:13:35+05:30
 lastmod: 2020-10-09T10:13:38+08:00
-author: "Rainer Chiang"
+author: Rainer Chiang
 
-description: "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
-categories: ["Text"]
-tags: ["plain", "chinese"]
+description: Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that.
+categories: [Text]
+tags: [plain, chinese]
 
 
 draft: false
