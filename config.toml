@@ -10,7 +10,7 @@ author = "Rainer Chiang"
 copyright = "[Rainer Chiang](/) &#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)"
 
 theme = "simpleness"
-googleAnalytics = ""
+googleAnalytics = "UA-162425220-2"
 
 [params]
   lazyImage = true
@@ -22,16 +22,16 @@ googleAnalytics = ""
   disqus = "rainerchiang"
 
 [params.valine]
-  enable = false
+  enable = true
   lang = 'en' # zh-CN
-  appId = ''
-  appKey = ''
+  appId = 'CXhRxgF18xcqkQ6ylD56iJC5-MdYXbMMI'
+  appKey = 'N0uSp4sS3sxcEbaFgINUHYiy'
   placeholder = 'Say Something......'
-  requiredFields = ['nick']
+  requiredFields = ['nick', 'mail']
   avatar = 'robohash'
   visitor = true
   enableHeaderVisitor = true
-  debug = true
+  debug = false
 
 [menu]
   [[menu.main]]
