@@ -1,6 +1,6 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:RainerChiang/simpleness.git
 [submodule "themes/simpleness"]
 	path = themes/simpleness
 	url = https://github.com/RainerChiang/simpleness.git
+[submodule "public"]
+	path = public
+	url = git@github.com:RainerChiang/simpleness.git
