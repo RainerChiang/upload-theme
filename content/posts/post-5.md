@@ -12,6 +12,7 @@ tags: [markdown]
 draft: false
 enableDisqus : true
 enableMathJax: false
+toc: true
 disableToC: false
 disableAutoCollapse: true
 ---

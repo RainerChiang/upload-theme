@@ -18,7 +18,9 @@ googleAnalytics = "UA-162425220-2"
   enableReadingTime = true
   favicon = "favicon.ico"
   startyear = "2019"
+  showmonth = true
   description = "A simple and concise hugo theme."
+  slogan = "always make it happen"
   disqus = "rainerchiang"
 
 [params.valine]
