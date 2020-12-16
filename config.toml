@@ -56,18 +56,18 @@ googleAnalytics = "UA-162425220-2"
 [taxonomies]
 category = "categories"
 tag = "tags"
-series = "series"
+# series = "series"
 
-# doc: https://gohugo.io/getting-started/configuration-markup#highlight
-# syntax style: https://xyproto.github.io/splash/docs/longer/all.html
 [markup]
+  # doc: https://gohugo.io/getting-started/configuration-markup#highlight
+  # syntax style: https://xyproto.github.io/splash/docs/longer/all.html
   [markup.highlight]
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
     hl_Lines = ""
     lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
+    lineNos = true
+    lineNumbersInTable = false
     noClasses = true
     style = "monokai" # github, dracula, vim, monokai
     tabWidth = 4
