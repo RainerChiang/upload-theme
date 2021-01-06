@@ -8,12 +8,8 @@ description:
 categories: []
 tags: []
 
-
 draft: false
-enableDisqus : true
+enableDisqus : false
 enableMathJax: false
 toc: false
-disableToC: false
-disableAutoCollapse: true
 ---
-
