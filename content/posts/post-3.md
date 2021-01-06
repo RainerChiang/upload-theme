@@ -11,8 +11,7 @@ tags: [MathJax, test]
 draft: false
 enableDisqus : true
 enableMathJax: true
-disableToC: false
-disableAutoCollapse: true
+toc: false
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.

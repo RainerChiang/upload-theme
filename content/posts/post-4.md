@@ -12,8 +12,7 @@ tags: [plain, chinese]
 draft: false
 enableDisqus : true
 enableMathJax: false
-disableToC: false
-disableAutoCollapse: true
+toc: false
 ---
 
 # 荷塘月色

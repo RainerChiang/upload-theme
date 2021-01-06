@@ -11,8 +11,7 @@ tags: [emoji, test]
 draft: false
 enableDisqus : true
 enableMathJax: false
-disableToC: false
-disableAutoCollapse: true
+toc: false
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways. 
