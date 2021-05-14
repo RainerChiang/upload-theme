@@ -1,15 +1,11 @@
 baseURL = "https://rainerchiang.github.io/simpleness/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-enableEmoji = true
-# pagination = 10
+theme = "simpleness"
 
 title = "Rainer Chiang"
-author = "Rainer Chiang"
-copyright = "[Rainer Chiang](/) &#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)"
-
-theme = "simpleness"
+enableInlineShortcodes = true
+enableEmoji = true
 googleAnalytics = "UA-162425220-2"
 
 [params]
@@ -18,13 +14,13 @@ googleAnalytics = "UA-162425220-2"
   enableReadingTime = true
   favicon = "favicon.ico"
   startyear = "2019"
-  showmonth = true
   description = "A simple and concise hugo theme."
-  slogan = "always make it happen"
   disqus = "rainerchiang"
 
 [params.valine]
   enable = true
+  enableHeaderVisitor = true
+  debug = false
   lang = 'en' # zh-CN
   appId = 'CXhRxgF18xcqkQ6ylD56iJC5-MdYXbMMI'
   appKey = 'N0uSp4sS3sxcEbaFgINUHYiy'
@@ -32,22 +28,16 @@ googleAnalytics = "UA-162425220-2"
   requiredFields = ['nick', 'mail']
   avatar = 'robohash'
   visitor = true
-  enableHeaderVisitor = true
-  debug = false
 
 [menu]
   [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-  [[menu.main]]
   name = "Projects"
   url = "/projects/"
-  weight = 2
+  weight = 1
   [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 2
 
 [social]
   github = "https://github.com/RainerChiang"
@@ -56,18 +46,16 @@ googleAnalytics = "UA-162425220-2"
 [taxonomies]
 category = "categories"
 tag = "tags"
-# series = "series"
 
 [markup]
   # doc: https://gohugo.io/getting-started/configuration-markup#highlight
   # syntax style: https://xyproto.github.io/splash/docs/longer/all.html
   [markup.highlight]
-    codeFences = true
     guessSyntax = true
     hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
+    # lineNoStart = 1
+    # lineNos = true
+    # lineNumbersInTable = true
     noClasses = true
     style = "monokai" # github, dracula, vim, monokai
     tabWidth = 4
