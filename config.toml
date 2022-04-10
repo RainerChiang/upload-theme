@@ -28,6 +28,7 @@ googleAnalytics = "UA-162425220-2"
   requiredFields = ['nick', 'mail']
   avatar = 'robohash'
   visitor = true
+  serverURLS = 'https://CXhRxgF1.api.lncldglobal.com'
 
 [menu]
   [[menu.main]]
