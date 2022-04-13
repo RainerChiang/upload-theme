@@ -1,6 +1,6 @@
 ---
 title: Short Codes
-date: 2019-09-06T12:13:36+05:30
+date: 2019-09-18T12:13:36+05:30
 lastmod: 2020-10-09T10:13:38+08:00
 author: Rainer Chiang
 
@@ -35,7 +35,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## YouTube Privacy Enhanced Shortcode
 
-< youtube ZJthWmvUzzc >
+{{< youtube ZJthWmvUzzc >}}
 
 <br>
 

@@ -9,7 +9,7 @@ categories: [Hugo]
 tags: [emoji, test]
 
 draft: false
-enableDisqus : true
+enableDisqus : false
 enableMathJax: false
 toc: false
 ---

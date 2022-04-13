@@ -1,6 +1,6 @@
 ---
 title: Typography
-date: 2019-09-18T12:13:38+05:00
+date: 2019-09-05T12:13:38+05:00
 lastmod: 2020-10-09T10:13:38+08:00
 author: Rainer Chiang
 
@@ -10,7 +10,7 @@ tags: [markdown]
 
 
 draft: false
-enableDisqus : true
+enableDisqus : false
 enableMathJax: false
 toc: true
 ---
@@ -97,6 +97,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 #### Inline Markdown within tables
 
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
+| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp; | Table |
 | ---------- | --------- | ----------------- | ---------- |
-| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
+| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |

@@ -10,7 +10,7 @@ tags: [Markdown, test]
 
 
 draft: false
-enableDisqus : true
+enableDisqus : false
 enableMathJax: false
 toc: true
 ---
@@ -134,7 +134,9 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
   * Milk
   * Cheese
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Other Elements
+
+—— abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 

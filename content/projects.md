@@ -11,7 +11,7 @@ tags: []
 draft: false
 enableDisqus : true
 enableMathJax: false
-toc: false
+toc: true
 ---
 
 ## [simpleness](https://github.com/RainerChiang/simpleness)
