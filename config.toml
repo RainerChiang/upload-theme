@@ -19,16 +19,15 @@ googleAnalytics = "UA-162425220-2"
 
 [params.valine]
   enable = true
-  enableHeaderVisitor = true
-  debug = false
   lang = 'en' # zh-CN
   appId = 'CXhRxgF18xcqkQ6ylD56iJC5-MdYXbMMI'
   appKey = 'N0uSp4sS3sxcEbaFgINUHYiy'
   placeholder = 'Say Something......'
-  requiredFields = ['nick', 'mail']
+  requiredFields = ['nick']
   avatar = 'robohash'
   visitor = true
   serverURLS = 'https://CXhRxgF1.api.lncldglobal.com'
+  debug = false # display the visitor counts when using 'hugo server'
 
 [menu]
   [[menu.main]]
