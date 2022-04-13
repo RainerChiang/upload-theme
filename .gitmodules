@@ -3,4 +3,5 @@
 	url = https://github.com/RainerChiang/simpleness.git
 [submodule "public"]
 	path = public
-	url = git@github.com:RainerChiang/simpleness.git
+	url = git@github.com-rainer:RainerChiang/simpleness.git
+	branch = gh-pages
