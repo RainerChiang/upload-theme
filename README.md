@@ -8,3 +8,9 @@ git config user.email ""
 cd ..
 ./deploy.sh
 ```
+
+```
+git submodule add --branch gh-pages git@github.com:RainerChiang/simpleness.git public/
+git submodule init
+git submodule update
+```
